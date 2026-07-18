@@ -48,11 +48,11 @@ class Arjun:
 
 **🏫 M.Tech ICT — Machine Learning**
 Dhirubhai Ambani Institute of ICT
-`2022 – 2024` · CGPA **8.16**
+`2022 – 2024` · 
 
 **🏫 B.E. — Computer Science**
 Government Engineering College, Bhavnagar (GTU)
-`2018 – 2022` · CGPA **9.13**
+`2018 – 2022` ·
 
 </td>
 <td width="45%">
