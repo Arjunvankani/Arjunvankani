@@ -1,0 +1,418 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"><animate attributeName="stop-color" values="#06B6D4;#2563EB;#06B6D4" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#2563EB"><animate attributeName="stop-color" values="#2563EB;#06B6D4;#2563EB" dur="6s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"><animate attributeName="stop-color" values="#2563EB;#06B6D4;#10B981;#2563EB" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#06B6D4"><animate attributeName="stop-color" values="#06B6D4;#10B981;#2563EB;#06B6D4" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#2563EB;#06B6D4;#10B981" dur="8s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <radialGradient id="bgGlow1" cx="20%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgGlow2" cx="85%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgGlow3" cx="70%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+    <clipPath id="cardClip"><rect x="0" y="0" width="1180" height="610" rx="24"/></clipPath>
+    <clipPath id="leftClip"><rect x="40" y="40" width="400" height="530" rx="16"/></clipPath>
+    <clipPath id="rightClip"><rect x="460" y="40" width="680" height="530" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="1180" height="610" fill="#FFFFFF"/>
+    <rect width="1180" height="610" fill="url(#bgGlow1)"/>
+    <rect width="1180" height="610" fill="url(#bgGlow2)"/>
+    <rect width="1180" height="610" fill="url(#bgGlow3)"/>
+
+    <g opacity="0.5">
+      <circle cx="120" cy="120" r="1.6" fill="#06B6D4"><animate attributeName="cy" values="120;100;120" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="980" cy="90" r="1.8" fill="#2563EB"><animate attributeName="cy" values="90;70;90" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="1050" cy="560" r="1.4" fill="#10B981"><animate attributeName="cy" values="560;540;560" dur="5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <rect x="1.5" y="1.5" width="1177" height="607" rx="24" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.5"/>
+
+    <!-- top command bar -->
+    <rect x="0" y="0" width="1180" height="34" fill="#F1F5F9"/>
+    <circle cx="22" cy="17" r="5" fill="#FF5F56"/>
+    <circle cx="40" cy="17" r="5" fill="#FFBD2E"/>
+    <circle cx="58" cy="17" r="5" fill="#27C93F"/>
+    <text x="590" y="21" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#475569">arjun@ai-lab ~ % ./profile.sh --live</text>
+    <circle cx="1130" cy="17" r="4" fill="#EF4444">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1141" y="21" font-family="'JetBrains Mono',monospace" font-size="10.5" fill="#EF4444" letter-spacing="1">SCANNING</text>
+
+    <!-- LEFT PANEL -->
+    <g filter="url(#softShadow)">
+      <rect x="40" y="40" width="400" height="530" rx="16" fill="#F8FAFC" fill-opacity="0.6" stroke="rgba(15,23,42,.08)" stroke-width="1"/>
+    </g>
+    <text x="60" y="65" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2563EB">VISUAL.MAP</text>
+    <line x1="60" y1="74" x2="420" y2="74" stroke="#E2E8F0" stroke-width="1"/>
+    <g clip-path="url(#leftClip)">
+      
+      <text x="52" y="92.0" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.10s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="98.9" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.12s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="105.9" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.15s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@@%&amp;M***M#/]p@$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="112.8" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.18s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@WqCcj/()1)(((){[?/uLkB$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="119.8" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.20s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@hc|1\frxnnnnnnnxxxxrjf/))uq@$$$$$$$$$$$
+      </text>
+      <text x="52" y="126.7" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.23s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@v}trxxnnnnnnnnxxxxxxrrrrrjt1(QB$$$$$$$$$
+      </text>
+      <text x="52" y="133.7" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.25s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$b+)tfft/\||\/fjrjt//fjrrrrrrjt)(d$$$$$$$$
+      </text>
+      <text x="52" y="140.6" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.28s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$h_}))())))1{{{{)((1{{)\fjrrrjjf\[U@$$$$$$
+      </text>
+      <text x="52" y="147.6" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.30s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$B|[)))1{{}[[]?-??][[[]]})/frrjjf/}z@$$$$$
+      </text>
+      <text x="52" y="154.5" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.33s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@q-{}?_+~~~~!IIl!_!;;I-_&lt;+[(/fjjf\?m@$$$$
+      </text>
+      <text x="52" y="161.4" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.35s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&amp;j&gt;i~__+&gt;l,l{(}-!+(cd#M*dLx+_}(|)?x@$$$$
+      </text>
+      <text x="52" y="168.4" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.38s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@&gt;;!!_)xCbMMWMM#MWWM#bZ0boj`^(zzUM$$$$$
+      </text>
+      <text x="52" y="175.3" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.40s" dur="0.4s" fill="freeze"/>
+        $$$$$$@@@$$$$$$$$$$$$$$$$$$$$$$$$$$$x``?aOrttjnYk#M#kOCYYUCLQYi;tZ@$$$$$$$
+      </text>
+      <text x="52" y="182.3" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.43s" dur="0.4s" fill="freeze"/>
+        $$$$$@@BB@$$$$$$$$$$$$$$$$$$$$$$$$$$M!^{LLOmOQCCJXUYcUCn(QZfbJ({U\d$$$$$$$
+      </text>
+      <text x="52" y="189.2" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.45s" dur="0.4s" fill="freeze"/>
+        $$$$$$@BBB$$@@BBB@@@$$$$$$$$$$$$$$$8tj{tQkfZwrCbcnbkncbkdbZkbY/}UxQ$$$$$$$
+      </text>
+      <text x="52" y="196.2" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.47s" dur="0.4s" fill="freeze"/>
+        $$$$$$@BB@@B%888%%88B@$$$$$$$$$$$$$#\Cj]vqawqpwLYC*#0JJCCLLLQmY[L(*$$$$$$$
+      </text>
+      <text x="52" y="203.1" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.50s" dur="0.4s" fill="freeze"/>
+        $$$$$$@BB@B8&amp;&amp;8BBB%&amp;8B$$$$$$$$$$$$$@rzU?ULCLLCQmk#MM#******##*c[jL@$$$$$$$
+      </text>
+      <text x="52" y="210.0" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.53s" dur="0.4s" fill="freeze"/>
+        $$$$$$@@@B8&amp;&amp;%@@@@B8&amp;B$$$$$$$$$$$$$$8jvr(aoo**#*awmmOOwdwwa#*Z&gt;,0@$$$$$$$$
+      </text>
+      <text x="52" y="217.0" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.55s" dur="0.4s" fill="freeze"/>
+        $$$$$$@@$B8&amp;8@$$@BB%B@$$$$$$$$$$$$$$$@0/,fbaaCrf/(1{1{}}{}1YU_I}B$$$$$$$$$
+      </text>
+      <text x="52" y="223.9" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.58s" dur="0.4s" fill="freeze"/>
+        $$$$$$@@$@8&amp;8@$$@B@@@$$$$$$$$$$$$$$$$$$%1;+ff_f\cCCQ0wqOYO{+~!:)B$$$$$$$$$
+      </text>
+      <text x="52" y="230.9" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.60s" dur="0.4s" fill="freeze"/>
+        $$$$$$$@$@%8%@$$@B@@$$$$$$$$$$$$$$$$$$$$*&gt;;!i&gt;[LmOOLCJ0bm)&gt;I;,}a$$$$$$$$$$
+      </text>
+      <text x="52" y="237.8" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.62s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$@B%8B$$$$B%B$$$$$$$$$$$$$$$$$$$$$&amp;jI,;li[rx}++{]il;":+cQW$$$$$$$$$
+      </text>
+      <text x="52" y="244.8" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.65s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$B%%B@$$@@%8%@$$$$$$$$$$$$$$$$$$$$$8or`^",;IIIII;"`,~{((1+n@$$$$$$$
+      </text>
+      <text x="52" y="251.7" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.68s" dur="0.4s" fill="freeze"/>
+        $$$$$$$@8&amp;&amp;&amp;&amp;&amp;&amp;8&amp;&amp;&amp;B@$$$$$$$$$$$$$$$$$$&amp;n[[[[_&lt;i+/}+ii+i?_?})(|)_r@$$$$$$$
+      </text>
+      <text x="52" y="258.7" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.70s" dur="0.4s" fill="freeze"/>
+        $$$$8qQQQQCJJUUUJULb@$$$$$$$$$$$$$$$$$B{1fjjj\]~ta#M#L}(|}?})}&lt;!&gt;(f0B$$$$$
+      </text>
+      <text x="52" y="265.6" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.72s" dur="0.4s" fill="freeze"/>
+        $$$BXqc/)1}11[}1tvQ/O#@$$$$$$$$$$$$$$$k~//|jrjt/)|jvu1({[}|rx/|fjj/]|B$$$$
+      </text>
+      <text x="52" y="272.5" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.75s" dur="0.4s" fill="freeze"/>
+        $$$%Yo&amp;Mahkbbppdbbdrczufx%$$$$$$$$$$$$n[t?{xnnzjfrrf|Xxfjxnuvuunxxr\&gt;a$$$$
+      </text>
+      <text x="52" y="279.5" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.78s" dur="0.4s" fill="freeze"/>
+        $$$8Ya8WM##*oahkbbdjtuc[Yxo$$$$$$$$$$B]((~tnnuU/fxxf/Qurxnnuvuunnxxt-Q$$$$
+      </text>
+      <text x="52" y="286.4" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.80s" dur="0.4s" fill="freeze"/>
+        $$$BYa8&amp;M##*oahkbbpx{\Q-Qwja$$$$$$$$$o&gt;|]?rnxnc|jxjtjYurxxnuf}jnnxxf]u@$$$
+      </text>
+      <text x="52" y="293.4" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.83s" dur="0.4s" fill="freeze"/>
+        $$$$Jk8&amp;MM#*oahbbbpu}\J(YqO)XYUj)fYJhz~)+[rxrx//jjf/xxxrrxnn\i/nnxxj1{$$$$
+      </text>
+      <text x="52" y="300.3" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.85s" dur="0.4s" fill="freeze"/>
+        $$$@0q&amp;&amp;M##ooakbbddzjCvQwppvi]})tt|({[+l!)jrnu|fjj/(nfffjxnn/&lt;/nnxxj{-$$$$
+      </text>
+      <text x="52" y="307.3" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.88s" dur="0.4s" fill="freeze"/>
+        $$$@wZ&amp;&amp;MM*oahkbbddYxrvvzX/}&lt;{1|rxxxj\?&gt;[/jxx(/jft|ff/tfjrxnf+)xnxrj1_$$$$
+      </text>
+      <text x="52" y="314.2" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.90s" dur="0.4s" fill="freeze"/>
+        $$$@bCWWM#*oahkbdpqzwB@@@@Bdc}-1\/f/]+}|fru/1|/tt\|j\\/tjrxnr?]rxxrj|_&amp;$$$
+      </text>
+      <text x="52" y="321.2" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.93s" dur="0.4s" fill="freeze"/>
+        $$$$@bOO0QQLCJUJCQZ*@$$$$$$$$8Lccj[&gt;}/jrnu))\t\\((j|(|\tfjxnn}&lt;txxrj|&lt;a$$$
+      </text>
+      <text x="52" y="328.1" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.95s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$@BBBBBB@$$$$$$$$$$$$$$$$$$Y[frxvf1/t/t/)(j(1)(|/fjrnj_-fxxrj)~W$$$
+      </text>
+      <text x="52" y="335.0" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="0.97s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$b~1fxv|(fjff/(/f(11)1)\tjrj[;~\fjjf{_$$$$
+      </text>
+      <text x="52" y="342.0" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.00s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$?-}(j((fjjf/|jt|()))1(/tff{1}?/jjj/]f$$$$
+      </text>
+      <text x="52" y="348.9" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.03s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$M_[/|))fjjjt\xt||((())|/ft{[#?]\fft|_/$$$$
+      </text>
+      <text x="52" y="355.9" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.05s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o)X-1fjjjjjftxt\\\||||(\t/1]#8&lt;?)|||1~c@$$$
+      </text>
+      <text x="52" y="362.8" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.08s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o1Qm0)-)/tfjxj11(\\\\\////{]o$$8l[))}&gt;CB$$$$
+      </text>
+      <text x="52" y="369.8" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.10s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$M{CZmmmJ\??{(\({]??})|\\/(?(M$$$$t{j/&gt;|B$$$$$
+      </text>
+      <text x="52" y="376.7" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.13s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$&amp;|X0OZZmwmU{U~(\/\\([?~&lt;_]~Y@$$$BOvqkbCc@$$$$$
+      </text>
+      <text x="52" y="383.6" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.15s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$&amp;|zQOJjtjYju&amp;vcpddpqqqmv/Zwa$$$$#nqhkkkdjW$$$$$
+      </text>
+      <text x="52" y="390.6" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.18s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$XjL00000Jn/nrtwpppqqqmzrB$$$$$$$0ULbkbdwj*$$$$$
+      </text>
+      <text x="52" y="397.5" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.20s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$h1YQQCL0ZZZX{OqqqwwmOnxB$$$$$$$8rz)ZYcUvxB$$$$$
+      </text>
+      <text x="52" y="404.5" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.23s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$WUfxJL0OZC{JmwwwmZQ\}zxW$$$$$$BwjznCj)x&amp;$$$$$$
+      </text>
+      <text x="52" y="411.4" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.25s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@bcjjzJ)jOmmmZOU(O##0f%$$$$$$#(tr1nZB$$$$$$$
+      </text>
+      <text x="52" y="418.4" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.28s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$8p\{CQOZZ0(1qo*oam(o$$$$$$8WW@$$$$$$$$$$
+      </text>
+      <text x="52" y="425.3" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.30s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#[JLCQO0U_Owqbo*hd}B$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="432.3" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.33s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$U/L0Q00L\{rCwkoohh-B$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="439.2" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.35s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@fvCLQQQU[W&amp;Q/Oooaw1@$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="446.1" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.38s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o{YJJCLC)Z$$$8fYbq{a$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="453.1" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.40s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@x\vXYJUrv@$$$$@pLX#$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="460.0" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.43s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*u&gt;&gt;+?]}\M$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="467.0" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.45s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@U)Lwq0~!)B$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="473.9" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.48s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%U|QOOmbo*tq$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="480.9" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.50s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$BOcnOkkdpk*#oLj@$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="487.8" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.53s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$vco*#****ahZYcu@$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="494.8" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.55s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$qvuX0mwOLvuO8@$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="501.7" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.58s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$@&amp;hqqpo%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <text x="52" y="508.6" font-family="'JetBrains Mono',monospace" font-size="6.2" fill="url(#asciiGrad)" opacity="1" xml:space="preserve">
+        <animate attributeName="opacity" values="0;1" begin="1.60s" dur="0.4s" fill="freeze"/>
+        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      </text>
+      <rect x="40" y="40" width="400" height="3" fill="#06B6D4" opacity="0.12">
+        <animate attributeName="y" values="40;560;40" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <rect x="40" y="40" width="400" height="530" rx="16" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+
+    <!-- RIGHT PANEL -->
+    <g filter="url(#softShadow)">
+      <rect x="460" y="40" width="680" height="530" rx="16" fill="#F8FAFC" fill-opacity="0.6" stroke="rgba(15,23,42,.08)" stroke-width="1"/>
+    </g>
+    <g clip-path="url(#rightClip)">
+      <text x="500" y="65" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2563EB">SYSTEM.INFO</text>
+      <text x="500" y="90" font-family="'JetBrains Mono',monospace" font-size="19" font-weight="700" fill="#7C3AED">arjun@ai-lab</text>
+      <line x1="500" y1="98" x2="1120" y2="98" stroke="#E2E8F0" stroke-width="1"/>
+      
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="0.60s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="112" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Subject:</text>
+        <text x="500" y="112" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..................</text>
+        <text x="698" y="112" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">Arjun Vankani</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="0.71s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="133" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Role:</text>
+        <text x="500" y="133" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;.....................</text>
+        <text x="698" y="133" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">AI Engineer  ·  ML Researcher</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="0.82s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="154" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Origin:</text>
+        <text x="500" y="154" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...................</text>
+        <text x="698" y="154" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">Ahmedabad, Gujarat, India</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="0.93s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="175" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Education:</text>
+        <text x="500" y="175" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;................</text>
+        <text x="698" y="175" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">M.Tech ICT (ML), DA-IICT</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.04s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="196" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Status:</text>
+        <text x="500" y="196" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...................</text>
+        <text x="698" y="196" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">Building  ·  Researching  ·  Publishing</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.15s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="217" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">ToolChain:</text>
+        <text x="500" y="217" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;................</text>
+        <text x="698" y="217" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">VS Code, Git, Docker, Postman</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.26s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="244" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Core.Lang:</text>
+        <text x="500" y="244" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;................</text>
+        <text x="698" y="244" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">Python, Java, C, C++, R, SQL</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.37s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="265" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Core.ML:</text>
+        <text x="500" y="265" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..................</text>
+        <text x="698" y="265" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">PyTorch, TensorFlow, Scikit-Learn</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.48s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="286" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Core.GenAI:</text>
+        <text x="500" y="286" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...............</text>
+        <text x="698" y="286" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">LLaMA, LangChain, HuggingFace, RAG</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.59s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="307" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Core.Vision:</text>
+        <text x="500" y="307" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..............</text>
+        <text x="698" y="307" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">OpenCV, YOLOv8, CLIP</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.70s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="328" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Core.Infra:</text>
+        <text x="500" y="328" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...............</text>
+        <text x="698" y="328" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">Docker, FAISS/Qdrant, REST APIs</text>
+      </g>
+      <line x1="500" y1="355" x2="1120" y2="355" stroke="#E2E8F0" stroke-width="1" opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.81s" dur="0.3s" fill="freeze"/>
+      </line>
+      <text x="500" y="376" font-family="'JetBrains Mono',monospace" font-size="13.5" font-weight="700" fill="#0F172A" opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.81s" dur="0.3s" fill="freeze"/>
+        Contact
+      </text>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="1.92s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="387" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Grid.Mail:</text>
+        <text x="500" y="387" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;................</text>
+        <text x="698" y="387" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">vankaniarjun0103@gmail.com</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="2.03s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="408" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Grid.LinkedIn:</text>
+        <text x="500" y="408" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;............</text>
+        <text x="698" y="408" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">arjun-vankani-8787931b1</text>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;1" begin="2.14s" dur="0.35s" fill="freeze"/>
+        <text x="500" y="429" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#2563EB" font-weight="600">Grid.GitHub:</text>
+        <text x="500" y="429" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#E2E8F0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..............</text>
+        <text x="698" y="429" font-family="'Inter',sans-serif" font-size="12.5" fill="#475569">Arjunvankani</text>
+      </g>
+    </g>
+    <rect x="460" y="40" width="680" height="530" rx="16" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+</svg>
