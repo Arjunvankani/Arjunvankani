@@ -1,0 +1,13 @@
+{
+  "title": "Self-rated skills",
+  "axes": [
+    { "label": "Computer Vision", "value": 9 },
+    { "label": "NLP / LLMs", "value": 9 },
+    { "label": "Deep Learning", "value": 9 },
+    { "label": "GenAI / Diffusion", "value": 8 },
+    { "label": "MLOps / Deployment", "value": 6 },
+    { "label": "Research Writing", "value": 7 },
+    { "label": "Backend (Flask/Django)", "value": 6 },
+    { "label": "Automation (n8n/ComfyUI)", "value": 7 }
+  ]
+}
